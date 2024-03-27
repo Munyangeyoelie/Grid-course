@@ -4,4 +4,31 @@
 }
 body {
   background-color: rgb(238, 238, 238);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: rgb(51, 51, 51);
+  -webkit-font-smoothing: antialiased;
+  dispay: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header {
+  background: #2271ff;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  dispay: flex;
+  flex-direction: columns;
+  border-radius: 10%;
+}
+main {
+  background: #b9c0c2;
 }
