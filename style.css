@@ -4,14 +4,7 @@
 }
 body {
   background-color: rgb(238, 238, 238);
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: rgb(51, 51, 51);
-  -webkit-font-smoothing: antialiased;
-  dispay: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+/
 }
 .container {
   width: 100%;
@@ -33,5 +26,4 @@ header {
 }
 main {
   background: #b9c0c2;
-  display: grid;
 }
