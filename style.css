@@ -31,4 +31,5 @@ header {
 }
 main {
   background: #b9c0c2;
+  display: grid;
 }
