@@ -23,6 +23,9 @@ header {
   dispay: flex;
   flex-direction: columns;
   border-radius: 10%;
+  grid-columns: 2/3;
+  grid-row: 1/2;
+  gr
 }
 main {
   background: #b9c0c2;
