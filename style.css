@@ -19,6 +19,8 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: grid;
+  grid-template-columns: minmax(100px, 400px) 1fr;
 }
 header {
   background: #2271ff;
