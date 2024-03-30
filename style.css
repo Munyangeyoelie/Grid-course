@@ -22,6 +22,8 @@ body {
   align-self: center;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 main {
   background: #b9c0c2;
@@ -31,6 +33,8 @@ main {
   align-self: center;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 .section {
   background: #87953c;
@@ -41,4 +45,5 @@ main {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  padding: 20px;
 }
