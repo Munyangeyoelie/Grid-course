@@ -7,13 +7,12 @@ body {
 }
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   display: grid;
   grid-template-columns: minmax(100px, 400px) 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 .header {
   background: #2271ff;
@@ -23,8 +22,10 @@ body {
 main {
   background: #b9c0c2;
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 3/6;
 }
 .section {
-  background: #;
+  background: #87953c;
+  grid-column: 1/2;
+  grid-row: 1/6;
 }
